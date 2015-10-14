@@ -27,7 +27,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        tipLabel.text = "$0.00"
+        billField.text = "$0"
+        tipLabel.text = "+$0.00"
         totalLabel.text = "$0.00"
         splitAmount.text = "$0.00"
         splitLabel.text = "1"
@@ -60,14 +61,17 @@ class ViewController: UIViewController {
         {
             billField.text = "$"
         }
-            
+        
+        // billField.text = "$\(billAmount)"
+        // billField.text = String(format: "$%.2f", billAmount)
+
         let tip = billAmount * tipPercentage
         let total = billAmount + tip
             
         tipLabel.text = "$\(tip)"
         totalLabel.text = "$\(total)"
 
-        tipLabel.text = String(format: "$%.2f", tip)
+        tipLabel.text = String(format: "+$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
         let numberOfPeople = 2
