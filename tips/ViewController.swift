@@ -7,21 +7,16 @@
 //
 
 import UIKit
+import Spring
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var splitAmount: UILabel!
-    @IBOutlet weak var splitLabel: UILabel!
-    @IBOutlet weak var addButton: UIButton!
-    @IBOutlet weak var subtractButton: UIButton!
+class ViewController: UIViewController, SplitViewControllerDelegate {
+    
     @IBOutlet weak var billAmount: UILabel!
     @IBOutlet weak var billField: UITextField!
-    // make the dollar sign stay after entering number
+    @IBOutlet weak var tipControl: UISegmentedControl!
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
-    
-    @IBOutlet weak var tipControl: UISegmentedControl!
-    
+    @IBOutlet weak var splitButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,22 +25,11 @@ class ViewController: UIViewController {
         billField.text = "$0"
         tipLabel.text = "+$0.00"
         totalLabel.text = "$0.00"
-        splitAmount.text = "$0.00"
-        splitLabel.text = "1"
-        
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    @IBAction func onAdd(sender: AnyObject) {
-        
-    }
-    
-    @IBAction func onSubtract(sender: AnyObject) {
-        
     }
 
     @IBAction func onEditingChanged
@@ -73,21 +57,17 @@ class ViewController: UIViewController {
 
         tipLabel.text = String(format: "+$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
-        
-        let numberOfPeople = 2
-        let billPerPerson = total / 2
-        
-        splitAmount.text = "$\(billPerPerson)"
-        splitLabel.text = "\(numberOfPeople)"
-        
-        splitAmount.text = String(format: "$%.2f", billPerPerson)
-        splitLabel.text = String(format: "%u", numberOfPeople)
             
     }
 
     
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true)
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if let splitViewController = segue.destinationViewController as? SplitViewController {
+        }
     }
     
 }

@@ -48,6 +48,16 @@
                ReferencedContainer = "container:tipsplitter.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7F5E91CE1BCF055C00FB8DBD"
+               BuildableName = "SpringTests.xctest"
+               BlueprintName = "SpringTests"
+               ReferencedContainer = "container:tipsplitter.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
