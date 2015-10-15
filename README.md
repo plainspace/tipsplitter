@@ -20,7 +20,7 @@ Completed user stories:
 
 Check it out:
 
-![GIF walkthrough](tipsplitter.gif)
+![GIF walkthrough](tipsplitter-split.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
