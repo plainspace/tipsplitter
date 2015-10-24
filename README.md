@@ -13,14 +13,14 @@ Completed user stories:
 * [x] Optional: Add an app icon and launch image
 * [x] Optional: Add image assets
 * [ ] Optional: Add ability to split bill and view contribution per person (roughed in, need to finish)
-* [ ] Optional: Hide split bill feature in a hidden subview and show after clicking button to split
+* [x] Optional: Hide split bill feature in a hidden subview and show after clicking button to split
 * [ ] Issue: Keep dollar sign visible after inputting bill amount
 * [ ] Issue: If user clicks outside of input field and no amount is entered, show dollar sign
 * [ ] Issue: Fix bug where submitting bill value > deleting bill value > clicking outside of bill field > clicking back on bill field > entering new value > results in no calculation
 
 Check it out:
 
-![GIF walkthrough](tipsplitter-split.gif)
+![GIF walkthrough](tipsplitter-split-v2.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
