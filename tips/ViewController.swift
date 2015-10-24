@@ -1,4 +1,4 @@
-//
+    //
 //  ViewController.swift
 //  tips
 //
@@ -9,7 +9,7 @@
 import UIKit
 import Spring
 
-class ViewController: UIViewController, SplitViewControllerDelegate {
+class ViewController: UIViewController {
     
     @IBOutlet weak var billAmount: UILabel!
     @IBOutlet weak var billField: UITextField!
@@ -27,11 +27,6 @@ class ViewController: UIViewController, SplitViewControllerDelegate {
         totalLabel.text = "$0.00"
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
     @IBAction func onEditingChanged
         (sender: AnyObject) {
             

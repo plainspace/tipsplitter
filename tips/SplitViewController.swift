@@ -10,27 +10,24 @@ import UIKit
 import Spring
 
 protocol SplitViewControllerDelegate: class {
-
+    func resetButtonPressed(sender: AnyObject)
 }
 
 class SplitViewController: UIViewController {
-
+    
     @IBOutlet weak var modalView: SpringView!
-    
-    @IBOutlet weak var closeButton: UIButton!
-    
-    // @IBOutlet weak var splitAmountLabel: UILabel!
-    // @IBOutlet weak var splitNumberLabel: UILabel!
+        
+    @IBOutlet weak var splitAmountLabel: UILabel!
+    @IBOutlet weak var splitNumberLabel: UILabel!
     
     weak var delegate: SplitViewControllerDelegate?
     var data: SpringView!
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        modalView.transform = CGAffineTransformMakeTranslation(0, 300)
+        // modalView.transform = CGAffineTransformMakeTranslation(0, 300)
         
         // splitAmountLabel.text = "$0.00"
         // splitNumberLabel.text = "2"
@@ -45,8 +42,8 @@ class SplitViewController: UIViewController {
     @IBAction func onEditingChanged
         (sender: AnyObject) {
             
-            let numberOfPeople = 2
-            let billPerPerson = "$100.00"
+            // let numberOfPeople = 2
+            // let billPerPerson = "$100.00"
             
             // splitAmountLabel.text = "$\(billPerPerson)"
             // splitNumberLabel.text = "\(numberOfPeople)"
@@ -64,6 +61,13 @@ class SplitViewController: UIViewController {
     
     @IBAction func onSubtract(sender: AnyObject) {
         
+    }
+
+    @IBAction func resetButtonPressed(sender: AnyObject) {
+        delegate?.resetButtonPressed(sender)
+        dismissViewControllerAnimated(true, completion: nil)
+        
+        UIApplication.sharedApplication().sendAction("maximizeView:", to: nil, from: self, forEvent: nil)
     }
     
     override func viewDidAppear(animated: Bool) {
