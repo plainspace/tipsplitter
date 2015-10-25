@@ -17,68 +17,6 @@
             endingLineNumber = "19"
             landmarkName = "SplitViewController"
             landmarkType = "3">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "tipsplitter.SplitViewController.splitAmountLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
-                  moduleName = "tipsplitter"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jared/Documents/tips%20projects/tipsplitter/tips/SplitViewController.swift"
-                  timestampString = "467402765.113937"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "tipsplitter.SplitViewController.splitAmountLabel.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
-                  moduleName = "tipsplitter"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jared/Documents/tips%20projects/tipsplitter/tips/SplitViewController.swift"
-                  timestampString = "467402765.114162"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "0"
-                  endingLineNumber = "0"
-                  offsetFromSymbolStart = "16">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "tipsplitter.SplitViewController.init (tipsplitter.SplitViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; tipsplitter.SplitViewController"
-                  moduleName = "tipsplitter"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jared/Documents/tips%20projects/tipsplitter/tips/SplitViewController.swift"
-                  timestampString = "467402765.114383"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "165">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "tipsplitter.SplitViewController.init (tipsplitter.SplitViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;tipsplitter.SplitViewController&gt;"
-                  moduleName = "tipsplitter"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/jared/Documents/tips%20projects/tipsplitter/tips/SplitViewController.swift"
-                  timestampString = "467402765.114597"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
