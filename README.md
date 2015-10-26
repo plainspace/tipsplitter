@@ -3,10 +3,10 @@
 
 This is Swift tip calculator application that is a requirement for the [CodePath iOS Bootcamp](https://codepath.com/iosbootcamp) appliation.
 
-Time spent:
-v1 ~ 6 hours
-v2 ~ 2 hours
-v3 ~ 4 hours
+Time spent:  
+v1 ~ 6 hours  
+v2 ~ 2 hours  
+v3 ~ 4 hours  
 
 Completed user stories:
 
