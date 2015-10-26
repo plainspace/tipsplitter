@@ -6,9 +6,9 @@
 //  Copyright © 2015 plainspace.
 //
 
-// fix > &1K bug
+// fix > $1K bug
 // fix bug where when the split view is open and you clear the billField the totalLabel and the splitLabel don't clear
-// if the billField is $0.00 then billAmountPlaceholder (alpha)
+// if the billField is $0.00 then billAmountPlaceholder (alpha channel)
 // customize segmented controls
 
 import UIKit
