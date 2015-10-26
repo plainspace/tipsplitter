@@ -3,7 +3,10 @@
 
 This is Swift tip calculator application that is a requirement for the [CodePath iOS Bootcamp](https://codepath.com/iosbootcamp) appliation.
 
-Time spent: ~ 6 hours
+Time spent:
+v1 ~ 6 hours
+v2 ~ 2 hours
+v3 ~ 4 hours
 
 Completed user stories:
 
@@ -12,15 +15,15 @@ Completed user stories:
 * [x] Optional: Add a custom font
 * [x] Optional: Add an app icon and launch image
 * [x] Optional: Add image assets
-* [ ] Optional: Add ability to split bill and view contribution per person (roughed in, need to finish)
-* [x] Optional: Hide split bill feature in a hidden subview and show after clicking button to split
-* [ ] Issue: Keep dollar sign visible after inputting bill amount
-* [ ] Issue: If user clicks outside of input field and no amount is entered, show dollar sign
-* [ ] Issue: Fix bug where submitting bill value > deleting bill value > clicking outside of bill field > clicking back on bill field > entering new value > results in no calculation
+* [x] Optional: Add ability to split bill and view contribution per person
+* [x] Optional: Hide split bill feature in a hidden modal and show after clicking button to split
+* [x] Issue: Keep dollar sign visible after inputting bill amount
+* [x] Issue: If user clicks outside of input field and no amount is entered, show label text
+* [x] Issue: Fix bug where submitting bill value > deleting bill value > clicking outside of bill field > clicking back on bill field > entering new value > results in no calculation
 
 Check it out:
 
-![GIF walkthrough](tipsplitter-split-v2.gif)
+![GIF walkthrough](tipsplitterv3.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
